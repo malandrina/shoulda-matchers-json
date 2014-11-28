@@ -6,7 +6,7 @@ require "active_support/all"
 
 module Shoulda
   module Matchers
-    module Json
+    module Json                     
       mattr_accessor :schema_root
 
       self.schema_root = "#{Dir.pwd}/spec/support/api/schemas"
